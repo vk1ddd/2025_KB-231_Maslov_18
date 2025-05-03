@@ -271,6 +271,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+smart_ptr.obj: smart_ptr.cpp.obj
+.PHONY : smart_ptr.obj
+
+# target to build an object file
+smart_ptr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/smart_ptr.cpp.obj
+.PHONY : smart_ptr.cpp.obj
+
+smart_ptr.i: smart_ptr.cpp.i
+.PHONY : smart_ptr.i
+
+# target to preprocess a source file
+smart_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/smart_ptr.cpp.i
+.PHONY : smart_ptr.cpp.i
+
+smart_ptr.s: smart_ptr.cpp.s
+.PHONY : smart_ptr.s
+
+# target to generate assembly for a file
+smart_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/smart_ptr.cpp.s
+.PHONY : smart_ptr.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -295,6 +319,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... smart_ptr.obj
+	@echo ... smart_ptr.i
+	@echo ... smart_ptr.s
 .PHONY : help
 
 
