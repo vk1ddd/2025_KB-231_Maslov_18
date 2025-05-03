@@ -271,29 +271,29 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
-smart_ptr.obj: smart_ptr.cpp.obj
-.PHONY : smart_ptr.obj
+userprofile.obj: userprofile.cpp.obj
+.PHONY : userprofile.obj
 
 # target to build an object file
-smart_ptr.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/smart_ptr.cpp.obj
-.PHONY : smart_ptr.cpp.obj
+userprofile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/userprofile.cpp.obj
+.PHONY : userprofile.cpp.obj
 
-smart_ptr.i: smart_ptr.cpp.i
-.PHONY : smart_ptr.i
+userprofile.i: userprofile.cpp.i
+.PHONY : userprofile.i
 
 # target to preprocess a source file
-smart_ptr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/smart_ptr.cpp.i
-.PHONY : smart_ptr.cpp.i
+userprofile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/userprofile.cpp.i
+.PHONY : userprofile.cpp.i
 
-smart_ptr.s: smart_ptr.cpp.s
-.PHONY : smart_ptr.s
+userprofile.s: userprofile.cpp.s
+.PHONY : userprofile.s
 
 # target to generate assembly for a file
-smart_ptr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/smart_ptr.cpp.s
-.PHONY : smart_ptr.cpp.s
+userprofile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/userprofile.cpp.s
+.PHONY : userprofile.cpp.s
 
 # Help Target
 help:
@@ -319,9 +319,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
-	@echo ... smart_ptr.obj
-	@echo ... smart_ptr.i
-	@echo ... smart_ptr.s
+	@echo ... userprofile.obj
+	@echo ... userprofile.i
+	@echo ... userprofile.s
 .PHONY : help
 
 

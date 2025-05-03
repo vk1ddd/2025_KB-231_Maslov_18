@@ -345,3 +345,5 @@ C:/Users/ivanu/QT/OOP_lab10/mainwindow.h
 C:/Users/ivanu/QT/OOP_lab10/mainwindow.cpp
  uic:./ui_mainwindow.h
 C:/Users/ivanu/QT/OOP_lab10/main.cpp
+C:/Users/ivanu/QT/OOP_lab10/userprofile.h
+C:/Users/ivanu/QT/OOP_lab10/userprofile.cpp

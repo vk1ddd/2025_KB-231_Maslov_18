@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-fd324412a8574a907464.json",
+					"jsonFile" : "directory-.-Debug-14d6e69016984cf50483.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "OOP_lab10::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OOP_lab10-Debug-7f6ce9584c92f428f533.json",
+					"jsonFile" : "target-OOP_lab10-Debug-53213a8b1bd672f6def8.json",
 					"name" : "OOP_lab10",
 					"projectIndex" : 0
 				},
