@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+eeef4015328ebb69242fc6748b2fc8b3 CMakeFiles/OOP_lab10_autogen
+5d3140cf12c0ebba5330f280575bf812 OOP_lab10_autogen/timestamp

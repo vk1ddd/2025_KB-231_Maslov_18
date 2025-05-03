@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-fd324412a8574a907464.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OOP_lab10",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OOP_lab10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OOP_lab10-Debug-7f6ce9584c92f428f533.json",
+					"name" : "OOP_lab10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OOP_lab10_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OOP_lab10_autogen-Debug-405ee4e6869fc2a01f43.json",
+					"name" : "OOP_lab10_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OOP_lab10_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OOP_lab10_autogen_timestamp_deps-Debug-4f4e1632779c5a907be2.json",
+					"name" : "OOP_lab10_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ivanu/QT/OOP_lab10/build/Desktop_MinGW_64_bit-Debug",
+		"source" : "C:/Users/ivanu/QT/OOP_lab10"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
