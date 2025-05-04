@@ -6,8 +6,8 @@ FitnessPlan::FitnessPlan()
 }
 
 void FitnessPlan::setPlanByBMI(double bmi) {
-    // все что выше 26, привышение веса
-    if(bmi < 26.0) {
+    // все что выше 24.9, привышение веса
+    if(bmi < 24.9) {
         generatePlanForLowOrNormalBMI();
     } else {
         generatePlanForHighBMI();

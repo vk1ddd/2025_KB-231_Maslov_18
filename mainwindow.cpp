@@ -25,7 +25,17 @@ void MainWindow::on_pushButtonCalculate_clicked()
     smart_ptr<UserProfile> user(new UserProfile(age, height, weight));
     double bmi = user->calculateBMI();
 
-    ui->labelResultDetails->setText(QString("Ваш ИМТ: %1").arg(bmi));
+    if (bmi < 20){
+        ui->labelResultDetails->setText(QString("Ваш ИМТ: %1, дефицит веса").arg(bmi));
+    }else if (bmi < 25){
+        ui->labelResultDetails->setText(QString("Ваш ИМТ: %1, норма").arg(bmi));
+    }else if (bmi < 30){
+        ui->labelResultDetails->setText(QString("Ваш ИМТ: %1, незначительный избыточный вес").arg(bmi));
+    }else if (bmi < 40){
+        ui->labelResultDetails->setText(QString("Ваш ИМТ: %1, ожирение").arg(bmi));
+    }else{
+        ui->labelResultDetails->setText(QString("Ваш ИМТ: %1, ожирение, опасно для здоровья").arg(bmi));
+    }
 
     FitnessPlan plan;
     plan.setPlanByBMI(bmi);
@@ -33,4 +43,3 @@ void MainWindow::on_pushButtonCalculate_clicked()
     ui->textEditDiet->insertPlainText(plan.getDietPlan());
     ui->textEditTraining->insertPlainText(plan.getTrainingPlan());
 }
-
