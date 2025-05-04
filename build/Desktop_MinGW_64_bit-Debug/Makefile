@@ -223,6 +223,30 @@ OOP_lab10_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/OOP_lab10_autogen/mocs_compilation.cpp.s
 .PHONY : OOP_lab10_autogen/mocs_compilation.cpp.s
 
+fitnessplan.obj: fitnessplan.cpp.obj
+.PHONY : fitnessplan.obj
+
+# target to build an object file
+fitnessplan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/fitnessplan.cpp.obj
+.PHONY : fitnessplan.cpp.obj
+
+fitnessplan.i: fitnessplan.cpp.i
+.PHONY : fitnessplan.i
+
+# target to preprocess a source file
+fitnessplan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/fitnessplan.cpp.i
+.PHONY : fitnessplan.cpp.i
+
+fitnessplan.s: fitnessplan.cpp.s
+.PHONY : fitnessplan.s
+
+# target to generate assembly for a file
+fitnessplan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_lab10.dir\build.make CMakeFiles/OOP_lab10.dir/fitnessplan.cpp.s
+.PHONY : fitnessplan.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -313,6 +337,9 @@ help:
 	@echo ... OOP_lab10_autogen/mocs_compilation.obj
 	@echo ... OOP_lab10_autogen/mocs_compilation.i
 	@echo ... OOP_lab10_autogen/mocs_compilation.s
+	@echo ... fitnessplan.obj
+	@echo ... fitnessplan.i
+	@echo ... fitnessplan.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

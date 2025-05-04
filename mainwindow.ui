@@ -27,7 +27,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="tabInput">
      <attribute name="title">
@@ -179,7 +179,7 @@
        </layout>
       </widget>
      </widget>
-     <widget class="QTabWidget" name="tabWidgetOptions">
+     <widget class="QTabWidget" name="Training">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -189,13 +189,13 @@
        </rect>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="tabDiets">
        <attribute name="title">
         <string>Диеты</string>
        </attribute>
-       <widget class="QListWidget" name="listWidget_2">
+       <widget class="QPlainTextEdit" name="textEditDiet">
         <property name="geometry">
          <rect>
           <x>0</x>
@@ -210,7 +210,7 @@
        <attribute name="title">
         <string>Тренировки</string>
        </attribute>
-       <widget class="QListWidget" name="listWidget">
+       <widget class="QPlainTextEdit" name="textEditTraining">
         <property name="geometry">
          <rect>
           <x>0</x>

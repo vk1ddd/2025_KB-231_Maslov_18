@@ -2,6 +2,7 @@
 #include "./ui_mainwindow.h"
 #include "userprofile.h"
 #include "smart_ptr.h"
+#include "fitnessplan.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -25,5 +26,11 @@ void MainWindow::on_pushButtonCalculate_clicked()
     double bmi = user->calculateBMI();
 
     ui->labelResultDetails->setText(QString("Ваш ИМТ: %1").arg(bmi));
+
+    FitnessPlan plan;
+    plan.setPlanByBMI(bmi);
+
+    ui->textEditDiet->insertPlainText(plan.getDietPlan());
+    ui->textEditTraining->insertPlainText(plan.getTrainingPlan());
 }
 

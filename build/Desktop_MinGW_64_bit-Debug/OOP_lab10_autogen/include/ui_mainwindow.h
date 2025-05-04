@@ -14,9 +14,9 @@
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
-#include <QtWidgets/QListWidget>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPlainTextEdit>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTabWidget>
@@ -46,11 +46,11 @@ public:
     QWidget *verticalLayoutWidget_2;
     QVBoxLayout *verticalLayout_2;
     QLabel *labelResultDetails;
-    QTabWidget *tabWidgetOptions;
+    QTabWidget *Training;
     QWidget *tabDiets;
-    QListWidget *listWidget_2;
+    QPlainTextEdit *textEditDiet;
     QWidget *tabTrainings;
-    QListWidget *listWidget;
+    QPlainTextEdit *textEditTraining;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -134,21 +134,21 @@ public:
 
         verticalLayout_2->addWidget(labelResultDetails);
 
-        tabWidgetOptions = new QTabWidget(tabRecommendations);
-        tabWidgetOptions->setObjectName("tabWidgetOptions");
-        tabWidgetOptions->setGeometry(QRect(10, 190, 741, 301));
+        Training = new QTabWidget(tabRecommendations);
+        Training->setObjectName("Training");
+        Training->setGeometry(QRect(10, 190, 741, 301));
         tabDiets = new QWidget();
         tabDiets->setObjectName("tabDiets");
-        listWidget_2 = new QListWidget(tabDiets);
-        listWidget_2->setObjectName("listWidget_2");
-        listWidget_2->setGeometry(QRect(0, 0, 741, 271));
-        tabWidgetOptions->addTab(tabDiets, QString());
+        textEditDiet = new QPlainTextEdit(tabDiets);
+        textEditDiet->setObjectName("textEditDiet");
+        textEditDiet->setGeometry(QRect(0, 0, 741, 271));
+        Training->addTab(tabDiets, QString());
         tabTrainings = new QWidget();
         tabTrainings->setObjectName("tabTrainings");
-        listWidget = new QListWidget(tabTrainings);
-        listWidget->setObjectName("listWidget");
-        listWidget->setGeometry(QRect(0, 0, 741, 271));
-        tabWidgetOptions->addTab(tabTrainings, QString());
+        textEditTraining = new QPlainTextEdit(tabTrainings);
+        textEditTraining->setObjectName("textEditTraining");
+        textEditTraining->setGeometry(QRect(0, 0, 741, 271));
+        Training->addTab(tabTrainings, QString());
         tabWidgetMain->addTab(tabRecommendations, QString());
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -161,8 +161,8 @@ public:
 
         retranslateUi(MainWindow);
 
-        tabWidgetMain->setCurrentIndex(0);
-        tabWidgetOptions->setCurrentIndex(0);
+        tabWidgetMain->setCurrentIndex(1);
+        Training->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -179,8 +179,8 @@ public:
         tabWidgetMain->setTabText(tabWidgetMain->indexOf(tabInput), QCoreApplication::translate("MainWindow", "\320\224\320\260\320\275\320\275\321\213\320\265", nullptr));
         groupBoxResult->setTitle(QCoreApplication::translate("MainWindow", "\320\222\320\260\321\210 \321\200\320\265\320\267\321\203\320\273\321\214\321\202\320\260\321\202", nullptr));
         labelResultDetails->setText(QCoreApplication::translate("MainWindow", "\320\222\320\262\320\265\320\264\320\270\321\202\320\265 \320\264\320\260\320\275\320\275\321\213\320\265, \320\275\320\260 \320\262\320\272\320\273\320\260\320\264\320\272\320\265 \"\320\224\320\260\320\275\320\275\321\213\320\265\"", nullptr));
-        tabWidgetOptions->setTabText(tabWidgetOptions->indexOf(tabDiets), QCoreApplication::translate("MainWindow", "\320\224\320\270\320\265\321\202\321\213", nullptr));
-        tabWidgetOptions->setTabText(tabWidgetOptions->indexOf(tabTrainings), QCoreApplication::translate("MainWindow", "\320\242\321\200\320\265\320\275\320\270\321\200\320\276\320\262\320\272\320\270", nullptr));
+        Training->setTabText(Training->indexOf(tabDiets), QCoreApplication::translate("MainWindow", "\320\224\320\270\320\265\321\202\321\213", nullptr));
+        Training->setTabText(Training->indexOf(tabTrainings), QCoreApplication::translate("MainWindow", "\320\242\321\200\320\265\320\275\320\270\321\200\320\276\320\262\320\272\320\270", nullptr));
         tabWidgetMain->setTabText(tabWidgetMain->indexOf(tabRecommendations), QCoreApplication::translate("MainWindow", "\320\240\320\265\320\272\320\276\320\274\320\265\320\275\320\264\320\260\321\206\320\270\320\270", nullptr));
     } // retranslateUi
 

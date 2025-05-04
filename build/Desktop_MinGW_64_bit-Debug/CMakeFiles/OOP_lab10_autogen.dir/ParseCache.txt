@@ -342,8 +342,10 @@ C:/Users/ivanu/QT/OOP_lab10/mainwindow.h
  mdp:C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qwidget.h
  mdp:C:/Users/ivanu/QT/OOP_lab10/build/Desktop_MinGW_64_bit-Debug/OOP_lab10_autogen/moc_predefs.h
  mdp:C:/Users/ivanu/QT/OOP_lab10/mainwindow.h
+C:/Users/ivanu/QT/OOP_lab10/main.cpp
 C:/Users/ivanu/QT/OOP_lab10/mainwindow.cpp
  uic:./ui_mainwindow.h
-C:/Users/ivanu/QT/OOP_lab10/main.cpp
 C:/Users/ivanu/QT/OOP_lab10/userprofile.h
 C:/Users/ivanu/QT/OOP_lab10/userprofile.cpp
+C:/Users/ivanu/QT/OOP_lab10/fitnessplan.h
+C:/Users/ivanu/QT/OOP_lab10/fitnessplan.cpp

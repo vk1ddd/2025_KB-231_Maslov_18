@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "OOP_lab10_autogen/timestamp" "custom" "OOP_lab10_autogen/deps"
   "C:/Users/ivanu/QT/OOP_lab10/build/Desktop_MinGW_64_bit-Debug/OOP_lab10_autogen/mocs_compilation.cpp" "CMakeFiles/OOP_lab10.dir/OOP_lab10_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/OOP_lab10.dir/OOP_lab10_autogen/mocs_compilation.cpp.obj.d"
+  "C:/Users/ivanu/QT/OOP_lab10/fitnessplan.cpp" "CMakeFiles/OOP_lab10.dir/fitnessplan.cpp.obj" "gcc" "CMakeFiles/OOP_lab10.dir/fitnessplan.cpp.obj.d"
   "C:/Users/ivanu/QT/OOP_lab10/main.cpp" "CMakeFiles/OOP_lab10.dir/main.cpp.obj" "gcc" "CMakeFiles/OOP_lab10.dir/main.cpp.obj.d"
   "C:/Users/ivanu/QT/OOP_lab10/mainwindow.cpp" "CMakeFiles/OOP_lab10.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/OOP_lab10.dir/mainwindow.cpp.obj.d"
   "C:/Users/ivanu/QT/OOP_lab10/userprofile.cpp" "CMakeFiles/OOP_lab10.dir/userprofile.cpp.obj" "gcc" "CMakeFiles/OOP_lab10.dir/userprofile.cpp.obj.d"

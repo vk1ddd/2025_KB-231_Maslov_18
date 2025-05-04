@@ -381,27 +381,38 @@ CMakeFiles/OOP_lab10.dir/mainwindow.cpp.obj: \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextformat.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qpen.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextoption.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QListWidget \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qlistwidget.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qlistview.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractitemview.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractscrollarea.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qabstractitemmodel.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qitemselectionmodel.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractitemdelegate.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qstyleoption.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractspinbox.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qvalidator.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qregularexpression.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qslider.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractslider.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qstyle.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtabbar.h \
- C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qrubberband.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QMainWindow \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QMenuBar \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qmenubar.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qmenu.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QPlainTextEdit \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qplaintextedit.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qtextedit.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qabstracttextdocumentlayout.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtextlayout.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qevent.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qpointer.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qeventpoint.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qvector2d.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qvectornd.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qpointingdevice.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qinputdevice.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qscreen.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QList \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qlist.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QObject \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qobject.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QRect \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qrect.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QSize \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qsize.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QSizeF \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/QTransform \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qtransform.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qglyphrun.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qrawfont.h \
+ C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtGui/qfontdatabase.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/QPushButton \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qpushbutton.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtWidgets/qabstractbutton.h \
@@ -420,4 +431,5 @@ CMakeFiles/OOP_lab10.dir/mainwindow.cpp.obj: \
  C:\Users\ivanu\QT\OOP_lab10\userprofile.h \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/QString \
  C:/Qt/qtcreator-15.0.1/Tools/mingw_64_2/include/QtCore/qstring.h \
- C:\Users\ivanu\QT\OOP_lab10\smart_ptr.h
+ C:\Users\ivanu\QT\OOP_lab10\smart_ptr.h \
+ C:\Users\ivanu\QT\OOP_lab10\fitnessplan.h

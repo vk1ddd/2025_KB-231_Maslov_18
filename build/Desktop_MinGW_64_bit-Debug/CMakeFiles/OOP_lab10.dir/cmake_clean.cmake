@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "OOP_lab10_autogen"
   "CMakeFiles/OOP_lab10.dir/OOP_lab10_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/OOP_lab10.dir/OOP_lab10_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/OOP_lab10.dir/fitnessplan.cpp.obj"
+  "CMakeFiles/OOP_lab10.dir/fitnessplan.cpp.obj.d"
   "CMakeFiles/OOP_lab10.dir/main.cpp.obj"
   "CMakeFiles/OOP_lab10.dir/main.cpp.obj.d"
   "CMakeFiles/OOP_lab10.dir/mainwindow.cpp.obj"
